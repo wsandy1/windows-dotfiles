@@ -460,11 +460,11 @@ widgets:
         label_alt: "{wifi_icon} {wifi_name}"
         update_interval: 5000
         wifi_icons:
-          - "----"  # 0% strength (no wifi)
-          - "+---"  # 1-25% strength
-          - "++--"  # 26-50% strength
-          - "+++-"  # 51-75% strength
-          - "++++"  # 76-100% strength. Alternate theming: \uf1eb
+          - "\udb82\udd1f"  # 0% strength (no wifi)
+          - "\udb82\udd2b"  # 1-25% strength
+          - "\udb82\udd22"  # 26-50% strength
+          - "\udb82\udd25"  # 51-75% strength
+          - "\udb82\udd28t"  # 76-100% strength. Alternate theming: \uf1eb
         callbacks:
           on_middle: "do_nothing"
           on_right: "exec cmd.exe /c start ms-settings:network"
